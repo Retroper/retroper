@@ -1,0 +1,338 @@
+﻿* { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }
+
+
+
+
+body {
+	margin: 0 auto;
+	width: 1000px;
+	background-color: grey; 
+	padding-top: 60px;
+	-webkit-text-size-adjust: none;
+}
+
+h1 {
+	color: #A00001;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 25px;
+}
+	
+p {
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 14;
+	line-height: 25px;
+}
+
+a:link {
+	text-decoration:  none;	
+	color: #A00001;
+} 
+
+a:visited {
+	text-decoration:  none;
+	color: #A00001;
+} 
+
+a:hover {
+	text-decoration:  underline;
+	color: #1D192E;
+} 
+  
+a:active {
+	text-decoration:  underline;
+} 
+
+#wrapper
+
+#meny {
+	z-index: 10;
+	position: fixed;
+	overflow: hidden;
+	width: 1000px;
+	background-color: white; /*#1D192E;*/
+	border-bottom: red 1 dotted;
+	height: 60px;
+	top: 0px;
+	text-align: right;
+	color: #A00001;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	padding-top: 8px;
+}
+
+a.meny {
+	position: relative;
+	top: 30px;
+	right: 10px;
+	background-color: white; /*#A00001;*/
+	padding: 11px;
+	text-decoration: none;
+}
+
+a.meny:hover {
+	background-color: grey; /*#A00001;*/
+	text-decoration: none;
+}
+
+a.meny:active {
+	text-decoration: none;
+}
+
+/* for å få menyen til å IKKE dekke over feltet */
+
+a.anker:before {
+	position: relative;
+	content:"";
+	display:block;
+	height: 60px; /* fixed header height*/
+	margin: -60px 0 0 /* negative fixed header height */
+}
+
+
+#slagord {
+	position: absolute;
+	top: 80px;
+	width: 1000px;
+
+}
+
+#slagord-tekst {
+	position: absolute;
+	left: 484px;
+	font-size: 50px;
+	color: #A00001;
+	/*background-color: white;*/
+	padding:20px;
+	margin-right: 0px; 
+}
+
+#omoss {
+	overflow: hidden;
+	background-color: white;
+
+}
+
+#omossvenstre {
+	width: 500px;
+	height: 550px;
+	float: left;
+}
+
+
+#omosshoyre {
+margin-right: 40px;
+}
+
+/* Her starter all CSS i Tjenester – først er tittel */
+
+#tjenester {
+	padding-left: 40;
+	padding-right: 40;
+	background-color: #A00001;
+}
+
+h2.tjenester {
+	text-align:center;
+	font-family: 'Duru Sans', sans-serif;
+	color: #A00001;
+	font-size: 20px;
+	padding: 10px;
+}
+
+p.tjenester {
+	padding: 10px;
+	font-family: 'Duru Sans', sans-serif;
+	text-align:center;
+	color: #A00001;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/* De forskjellige underpunktene i Tjenester her */
+
+#tjenester {
+	overflow: hidden;
+}
+
+/* overflow: hidden; Hindrer at elementer tegnes utenfor boksen sin (unngår grå boks) */
+
+#tjenestertjenester {
+	color: white;
+}
+
+#videotjenester {
+	float: left;
+	margin-right: 10;
+	width: 222;
+	height: 222;
+	background-image: url('../bilder/videotjenester.jpg');
+}
+
+
+#signaltjenester {
+	margin-right: 10;
+	width: 222;
+	height: 222;
+	float: left;
+	background-image: url('../bilder/signaltjenester.jpg');
+	background-color: white;
+}
+
+#tradlosetjenester {
+	margin-right: 10;
+	float: left;
+	width: 222;
+	height: 222;
+	background-image: url('../bilder/tradlosetjenester.jpg');
+	background-color: white;
+}
+
+#fiberoptisktjenester {
+	width: 222;
+	height: 222;
+	float: left;
+	background-image: url('../bilder/fiberoptisktjenester.jpg');
+	background-color: white;
+}
+
+#bredbandtjenester {
+	clear: both;
+	float: left;
+	margin-top: 10;
+	margin-right: 10;
+	width: 222;
+	height: 222;
+	background-image: url('../bilder/bredbandtjenester.jpg');
+	background-color: white;
+}
+
+#siedletjenester {
+	float: left;
+	margin-top: 10;
+	margin-right: 10;
+	width: 222;
+	height: 222;
+	background-image: url('../bilder/siedletjenester.jpg');
+	background-color: white;
+}
+
+#antennetjenester {
+	margin-right: 10;
+	margin-top: 10;
+	width: 222;
+	height: 222;
+	float: left;
+	background-image: url('../bilder/antennetjenester.jpg');
+	background-color: white;
+}
+
+#spredenetttjenester {
+	float: right;
+	margin-top: 10;
+	width: 222;
+	height: 222;
+	float: left;
+	background-image: url('../bilder/spredenetttjenester.jpg');
+	background-color: white;
+	}
+
+/* Denne er kun mellomrommet */
+	
+#mellomromtjenester {
+	clear: both;
+	height: 40;
+}
+
+/* Her starter Referanser */
+	
+#referanser {
+	overflow: hidden;
+	padding-left: 40;
+	padding-right: 40;
+	background-color: #1D192E;
+}
+
+#referanserreferanser {
+	color: white;
+}
+
+/* De fire forskjellige referansene */
+
+#referanse1 {
+	margin-right: 10;
+	width: 222;
+	height: 222;
+	float: left;
+	background-image: url('../bilder/citysyd.jpg');
+
+
+}
+
+#referanse2 {
+	margin-right: 10;
+	width: 222;
+	height: 222;
+	float: left;
+	background-image: url('../bilder/risvollan.jpg');
+}
+
+#referanse3 {
+	margin-right: 10;
+	width: 222;
+	height: 222;
+	float: left;
+	background-image: url('../bilder/ringvegen.jpg');
+
+}
+
+#referanse4 {
+	width: 222;
+	height: 222;
+	float: left;
+	background-image: url('../bilder/elvehavn.jpg');
+}
+
+/* Kun for å lage mellomrom */
+
+#mellomromreferanser {
+	clear: both;
+	height: 40;
+}
+
+
+#kontaktoss {
+	overflow: hidden;
+	background-color: white;
+}
+
+#kontaktossvenstre {
+	width: 500px;
+	float: left;
+}
+
+#kontaktosshoyre {
+	margin-right: 40px;
+}
+
+#bunn {
+	overflow: hidden;
+	background-color: #A00001;
+}
+
+p.bunntekst {
+	text-align: center;
+	color: white;
+}
+
+a.bunntekst {
+	color: white;
+}
+
+a.bunntekst:hover {
+	color: #1D192E;
+}

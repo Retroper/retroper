@@ -1,0 +1,234 @@
+﻿body {
+	border: black 1 solid;
+	margin: 0 auto;
+	width: 1000px;
+	background-color: grey; 
+}
+
+h1 {
+	color: #A00001;
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+
+}
+
+p {
+	font-family: 'Neuton', serif;
+	font-size: 16;
+	line-height: 25px;
+}
+
+#wrapper
+
+#slagord {
+	position: absolute;
+	top: 148px;
+	width: 1000px;
+}
+
+#slagord-tekst {
+	position: absolute;
+	left: 588px;
+}
+
+#omoss {
+	background-color: white;
+
+}
+
+#omossvenstre {
+	width: 500px;
+	height: 550px;
+	float: left;
+}
+
+#omosshoyre {
+	height: 550px;
+}
+
+/* Her starter all CSS i Tjenester – først er tittel */
+
+#tjenester {
+	padding-left: 40;
+	padding-right: 40;
+	background-color: #A00001;
+}
+
+h2.tjenester {
+	text-align:center;
+	color: #A00001;
+	font-size: 26px;
+	line-height: 65px;
+}
+
+p.tjenester {
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	color: #A00001;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/* De forskjellige underpunktene i Tjenester her */
+
+
+#tjenestertjenester {
+	color: white;
+}
+
+#videotjenester {
+	float: left;
+	width: 455;
+	height: 104;
+	background-color: white;
+}
+
+#videotjenester:hover {
+	background-color: grey;
+}
+
+#signaltjenester {
+	float: right;
+	width: 455;
+	height: 104;
+	background-color: white;
+}
+
+#tradlosetjenester {
+	clear: both;
+	float: left;
+	margin-top: 10;
+	width: 455;
+	height: 104;
+	background-color: white;
+}
+
+#fiberoptisktjenester {
+	float: right;
+	margin-top: 10;
+	width: 455;
+	height: 104;
+	background-color: white;
+}
+
+#bredbandtjenester {
+	clear: both;
+	float: left;
+	margin-top: 10;
+	width: 455;
+	height: 104;
+	background-color: white;
+}
+
+#siedletjenester {
+	float: right;
+	margin-top: 10;
+	width: 455;
+	height: 104;
+	background-color: white;
+}
+
+#antennetjenester {
+	clear: both;
+	float: left;
+	margin-top: 10;
+	width: 455;
+	height: 104;
+	background-color: white;
+}
+
+#spredenetttjenester {
+	float: right;
+	margin-top: 10;
+	width: 455;
+	height: 104;
+	background-color: white;
+	}
+
+/* Denne er kun mellomrommet */
+	
+#mellomromtjenester {
+	clear: both;
+	height: 40;
+}
+
+/* Her starter Referanser */
+	
+#referanser {
+	padding-left: 40;
+	padding-right: 40;
+	background-color: #1D192E;
+}
+
+#referanserreferanser {
+	color: white;
+}
+
+/* De fire forskjellige referansene */
+
+#referanse1 {
+	border: green 1 solid;
+	margin-right: 10;
+	width: 222;
+	height: 222;
+	float: left;
+}
+
+#referanse2 {
+	border: green 1 solid;
+	margin-right: 10;
+	width: 222;
+	height: 222;
+	float: left;
+}
+
+#referanse3 {
+	border: green 1 solid;
+	margin-right: 10;
+	width: 222;
+	height: 222;
+	float: left;
+}
+
+#referanse4 {
+	border: green 1 solid;
+	width: 222;
+	height: 222;
+	float: left;
+}
+
+/* Kun for å lage mellomrom */
+
+#mellomromreferanser {
+	clear: both;
+	height: 40;
+	border: fuchsia 1 solid;	
+}
+
+
+#kontaktoss {
+	border: blue 1 solid;
+	background-color: white;
+}
+
+#kontaktossvenstre {
+	border: blue 1 solid;
+	width: 500px;
+	height: 495px;
+	float: left;
+}
+
+#kontaktosshoyre {
+	border: blue 1 solid;
+	height: 495px;
+}
+
+#bunn {
+	border: yellow 1 solid;
+	background-color: #A00001;
+}
+
+p.bunntekst {
+	text-align: center;
+	color: white;
+}
